@@ -214,6 +214,8 @@ public class MemberProfilef {
 				
 				//WebElement submitbutton3 = driver.findElement(By.xpath("//*[@id=\"basic-horizontal-layouts\"]/div/div[1]/div/div/form/div[3]/div[2]/button"));
 				//submitbutton3.click();
-
+driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);		
+				robot21.keyPress(KeyEvent.VK_ENTER);
+				robot21.keyRelease(KeyEvent.VK_ENTER);//basic branch
 	}
 }
